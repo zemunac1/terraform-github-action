@@ -7,9 +7,9 @@ terraform {
   }
 
  backend "azurerm" {
-    resource_group_name  = "friday-demo-rg"
-    storage_account_name = "sttfstatemgt01"
-    container_name       = "tfstate"
+    resource_group_name  = "TerraformDemo"
+    storage_account_name = "sateraformdemo"
+    container_name       = "terrastatefile"
     key                  = "demo.terraform.tfstate"
   }
 }
